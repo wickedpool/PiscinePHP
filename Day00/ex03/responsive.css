@@ -1,0 +1,57 @@
+td {
+	border: 1px solid black;
+}
+h2 {
+	text-align:center;
+	margin-bottom:0;
+	margin-top:0;
+	font-size: 1.7vw;
+}
+p {
+	font-size: 1vw;
+}
+.grey {
+	background-color: grey;
+}
+.mass {
+	text-align:right;
+}
+.void {
+	border: none;
+}
+.lightslategold {
+	background-color:#8470FF;
+}
+.deepskyblue {
+	background-color:deepskyblue;
+}
+.green {
+	background-color:green;
+}
+.palegoldenrod {
+	background-color:palegoldenrod;
+}
+.lightgreen {
+	background-color:lightgreen;
+}
+.gold {
+	background-color:gold;
+}
+.lightpink {
+	background-color:lightpink;
+}
+.khaki {
+	background-color:khaki;
+}
+.lawngreen {
+	background-color:lawngreen;
+}
+.yellowgreen {
+	background-color:yellowgreen;
+}
+table {
+	width:100%;
+	border-spacing: 0px;
+	table-layout:fixed;
+	position: relative;
+}
