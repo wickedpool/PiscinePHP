@@ -14,11 +14,11 @@ $string = preg_replace_callback("/(<a )(.*?)(>)(.*)(<\/a>)/si", function($match)
 	$match[0] = preg_replace_callback("/( title=\")(.*?)(\")/mi", function($match) {
 	return ($match[1]."".strtoupper($match[2])."".$match[3]);
 	}, $match[0]);
+	print_r($match);
 	$match[0] = preg_replace_callback("/(>)(.*?)(<)/si", function($match) {
 		return ($match[1]."".strtoupper($match[2])."".$match[3]);
 	}, $match[0]);	
 	return ($match[0]);
 }, $string);
-echo $string;
 
 ?>
