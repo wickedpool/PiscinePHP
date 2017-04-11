@@ -1,0 +1,1 @@
+select UPPER(fp.nom) as 'NOM', fp.prenom, ab.prix from fiche_personne fp join membre mb on fp.id_perso = mb.id_fiche_perso join abonnement ab on ab.id_abo = mb.id_abo where ab.prix > 42 order by fp.nom, fp.prenom asc;

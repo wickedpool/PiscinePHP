@@ -1,0 +1,1 @@
+select f.id_genre as id_genre, g.nom as nom_genre, d.id_distrib as id_distrib, d.nom as nom_distrib, f.titre as 'titre film' from film f left join genre g on f.id_genre = g.id_genre left join distrib d on f.id_distrib = d.id_distrib where f.id_genre >= 4 AND f.id_genre <= 8 OR f.id_genre is null;
